@@ -53,8 +53,9 @@ array = ["hand","feet", "knee", "table"]
 def add_s(array)
   new_array = []
   array.each do |word|
-    word.append
-    
+  new == word.append("s")
+  new_array.push(new)
+  end 
 end 
 
 
