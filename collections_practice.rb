@@ -53,8 +53,8 @@ array = ["hand","feet", "knee", "table"]
 def add_s(array)
   new_array = []
   array.each_with_index.reject {|el,i| i == 1}.each do |el,i|
-  el.insert(-1, "s")
-  new_array.push(el)
+  word.insert(-1, "s")
+  new_array.push(word)
   end 
 end 
 
