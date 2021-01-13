@@ -49,9 +49,12 @@ def sum_array(array)
 end 
 
 #Build a method that adds an "s" to each word in the array except for the second element in the array ("feet" is already plural).
-
+array = ["hand","feet", "knee", "table"]
 def add_s(array)
-  array.each
+  new_array = []
+  array.each do |word|
+    word.append
+    
 end 
 
 
