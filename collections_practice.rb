@@ -54,7 +54,6 @@ def add_s(array)
   new_array = []
   array.each do |word|
     next if word = "feet"
-  end 
   word.insert(-1, "s")
   new_array.push(word)
   end 
