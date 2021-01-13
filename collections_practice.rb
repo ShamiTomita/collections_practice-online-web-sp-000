@@ -30,7 +30,7 @@ end
 def kesha_maker(array)
   new_array = [] 
   array.each do |a|
-    new=a[0][2] == "$" 
+    a[0][2] == "$" 
     new_array.push(new)
   end 
   return new_array
